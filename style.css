@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/about-us.css");
+@import url("styles/rodape.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --cinza:#3A404E;
+    --cinza-claro:#667085;
+    --vermelho: #8E2424;
+    --preto: #101828;
+
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--branco);
+}
