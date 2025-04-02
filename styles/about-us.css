@@ -1,174 +1,239 @@
 .sobre-nos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 6em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6em 0;
 }
 
 .sobre-nos__titulo {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--vermelho);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vermelho);
 }
 
 .sobre-nos__subtitulo {
-    font-size: 48px;
-    font-weight: 600;
-    color: var(--preto);
-    padding: 0.5em;
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--preto);
+  padding: 0.5em;
 }
 
 .sobre-nos__texto {
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--cinza-claro);
-    text-align: center;
-    margin: 0 19em;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cinza-claro);
+  text-align: center;
+
+  width: 50%;
 }
 
 .dados-lista {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    margin: 2em;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 2em;
 }
 
 .dados__itens {
-    padding: 4em;
-    text-align: left;
+  padding: 4em;
+  text-align: left;
 }
 
 .dados__titulos {
-    font-size: 60px;
-    font-weight: 600;
-    color: var(--vermelho);
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--vermelho);
 }
 
 .dados__subtitulos {
-    text-align: left;
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--preto);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--preto);
 }
 
 .dados__textos {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--cinza-claro);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cinza-claro);
 }
 
 .vagas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
 }
 
 .vagas__titulo {
-    font-family: var(--fonte-principal);
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--vermelho);
+  font-family: var(--fonte-principal);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vermelho);
 }
 
 .vagas__subtitulo {
-    font-family: var(--fonte-principal);
-    font-size: 36px;
-    font-weight: 600;
-    color: var(--preto);
-    padding: 0.5em 0;
+  font-family: var(--fonte-principal);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--preto);
+  padding: 0.5em 0;
 }
 
 .valor__texto {
-    font-size: var(--fonte-principal);
-    font-size: 20px;
-    font-weight: 400;
+  font-size: var(--fonte-principal);
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .vagas__abertas-foto {
-    padding: 4em 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  padding-top: 1em;
 }
 
 .descricao {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20em;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4em;
+
+  width: 50%;
+
+  margin: 0 12em;
 }
 
 .vaga-titulo {
-    font-family: var(--fonte-principal);
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--preto);
-    padding: 2em 0;
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--preto);
+  padding: 2em 0;
 }
 
 .card-vaga {
-    border: 1px solid #EAECF0;
-    border-radius: 16px;
-    padding: 1em 2em;
-    margin: 1em 0;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  padding: 1em 2em;
+  margin: 1em 0;
 }
 
 .vaga-nome {
-    font-family: var(--fonte-principal);
-    font-size: 18px;
-    font-weight: 500;
-    padding: 1em 0;
+  font-family: var(--fonte-principal);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1em 0;
 }
 
 .vaga-lista {
-    display: flex;
-    list-style-type: none;
-    padding: 1em 0;
+  display: flex;
+  list-style-type: none;
+  padding: 1em;
 }
 
 .vaga-salario {
-    display: flex;
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--cinza-claro);
-    padding:0;
-}
-
-.vaga-texto-salario {
-    padding: 0 2em;
+  display: flex;
+  gap: 20px;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cinza-claro);
 }
 
 .colaboradores {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 4em 0;
-    margin: 6em 12em;
-    text-align: center;
-    background-color:#C3191908;
-    border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em 0;
+  margin: 6em 12em;
+  text-align: center;
+  background-color: #c3191908;
+  border-radius: 16px;
 }
 
 .colaboradores__titulo {
-    font-size: 14px;
-    color: var(--vermelho);
-    font-weight: 600;
+  font-size: 14px;
+  color: var(--vermelho);
+  font-weight: 600;
 }
 
 .colaboradores__subtitulo {
-    font-size: 36px;
-    font-weight: 500;
-    color: var(--preto);
-    padding: 1em 0;
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--preto);
+  padding: 1em 0;
 }
 
 .colaboradores-Julia {
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--preto);
-    padding: 1em 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--preto);
+  padding: 1em 0;
 }
 
 .colaboradores__texto {
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--cinza-claro);
-    padding:0;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--cinza-claro);
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .sobre-nos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5em;
+    text-align: center;
+  }
+
+  .dados-lista {
+    flex-direction: column;
+  }
+
+  .sobre-nos__texto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .vagas__abertas-foto {
+    width: 90%;
+    padding-top: 1em;
+  }
+
+  .vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .descricao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-vaga {
+    margin: 1em 0;
+  }
+
+  .colaboradores {
+    margin: 2em;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+  }
 }
